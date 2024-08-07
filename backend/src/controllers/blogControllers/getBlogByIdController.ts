@@ -11,6 +11,16 @@ export async function getBlogByIdController(c:Context){
         const dbResponse=await prisma.post.findUnique({
             where:{
                 id:c.req.param('id')
+            },
+            select:{
+                id:true,
+                title:true,
+                content:true,
+                author:{
+                    select:{
+                        name:true
+                    }
+                }
             }
         })
         if(!dbResponse){
