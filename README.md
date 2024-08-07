@@ -21,7 +21,7 @@ A clone of Medium built using modern web technologies. The project includes a Re
 
 Check out the live demo of the application:
 
-[Frontend Demo](https://medium-clone-dqfa-2kkz8a80o-binayakshrees-projects.vercel.app/publish)
+[Frontend Demo](https://medium-clone-dqfa.vercel.app/signup)
 
 
 P.S. The ffrontend really sucks as I hate react & styling..
